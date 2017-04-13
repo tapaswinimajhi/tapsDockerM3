@@ -11,7 +11,7 @@ Get IP
 
 docker inspect --format="{{.NetworkSettings.Networks.nat.IPAddress}}" <containerName>
 
-Use IP and login with SQL server Management Create DataBase and Tables
+Use IP and login with SQL server Management Create DataBase and Table i.e. GUI(having 2 columns. 1. ID(int,PK,Identity specifiaction true) 2. GUID (varchar))
 
 To get an IP for the container 
 docker inspect --format="{{.NetworkSettings.Networks.nat.IPAddress}}" <containerName>
